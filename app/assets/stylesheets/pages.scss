@@ -3,3 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body { padding-top: 70px; }
+
+.alert { position: absolute;
+  z-index: 1;
+  width: 300px;
+}
