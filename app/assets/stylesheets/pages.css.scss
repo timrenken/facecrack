@@ -8,3 +8,16 @@ body { padding-top: 50px; }
   z-index: 1;
   width: 300px;
 }
+
+.front-title {
+  margin-top: 100px;
+}
+
+.landing { 
+  background: image-url("wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
