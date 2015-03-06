@@ -14,7 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
-  gem 'spring'
+  gem 'spring', '~> 1.3.3'
   gem 'sqlite3'
 end
 
@@ -22,3 +22,4 @@ gem 'twitter-bootstrap-rails', '~> 3.2.0'
 gem 'simple_form', '~> 3.1.0'
 gem 'devise', '~> 3.4.1'
 gem 'gravatarify', '~> 3.0.0' 
+gem 'public_activity'
