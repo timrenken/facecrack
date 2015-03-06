@@ -24,3 +24,9 @@ gem 'devise', '~> 3.4.1'
 gem 'gravatarify', '~> 3.0.0' 
 gem 'public_activity'
 gem 'auto_html'
+
+group :production do
+  gem 'pg'
+  gem 'unicorn'
+  gem 'rails_12factor'
+end
